@@ -2390,7 +2390,7 @@ blockquote {
     a#scrollUp {
         display: none !important;
     }
-
+    
 }
 
 /* Mobile to Tablet Portrait
@@ -2624,17 +2624,17 @@ blockquote {
     list-style: none;
     margin-bottom: 1em;
 
-    > li {
+    >li {
         display: flex;
         flex-direction: row;
         justify-items: center;
         align-items: center;
-        list-style: none;        
+        list-style: none;
 
-        > img {
+        >img {
             margin: 5px;
-            width: 20px;
-            height: 20px;
+            width: 15px;
+            height: 15px;
             margin-right: 1rem;
         }
     }
