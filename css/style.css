@@ -1734,10 +1734,10 @@ blockquote {
     padding: 0 1em;
 }
 
-.donate-icons {
-    /* height: clamp(10vh, 20px, 50px);
-    width: clamp(10vh, 20px, 50px); */
-}
+/* .donate-icons {
+    height: clamp(10vh, 20px, 50px);
+    width: clamp(10vh, 20px, 50px);
+} */
 
 .icon-links {
     display: flex;
@@ -2636,6 +2636,7 @@ blockquote {
             width: 15px;
             height: 15px;
             margin-right: 1rem;
+            padding: 2px;
         }
     }
 }
