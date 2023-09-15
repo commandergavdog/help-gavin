@@ -2641,13 +2641,6 @@ blockquote {
     }
 }
 
-/* .listImage {
-    margin: 2px;
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-} */
-
 
 /* END CARD STYLES */
 
@@ -2692,12 +2685,5 @@ blockquote {
     cursor: pointer;
 }
 
-/* .ff-button-bar img {
-    display: none;
-}
-
-.ff-form .ff-submit {
-    background-color: #d2b356 !important;
-} */
 
 /* END Donation Modal Styles */
