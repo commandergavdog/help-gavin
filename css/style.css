@@ -2526,7 +2526,7 @@ blockquote {
 
     #header aside ul {
         margin-top: 0 !important;
-        padding-top: 6px;
+        /* padding-top: 6px; */
     }
 
     /*Navigation*/
