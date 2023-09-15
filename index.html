@@ -159,9 +159,6 @@
                                 <li>
                                     <a href="#gallery">Gallery</a>
                                 </li>
-                                <!-- <li id="dontate-button">
-                                    <a href="/">Donate</a>
-                                </li> -->
                             </ul>
                         </nav>
                         <!--End of Main Navigation-->
@@ -184,7 +181,7 @@
                     </div>
 
                     <!--Call to Action-->
-                    <a href="https://gofund.me/e223a26b" target="_blank" class="button">DONATE</a>
+                    <a data-featherlight="#donationModal" class="button">DONATE</a>
 
 
                     <!--End Call to Action-->
@@ -363,7 +360,8 @@
                                 Recieve a unique photo of Gavin sent to you digitally
                             </li>
                         </ul>
-                        <a class="browse-button" src="/"><b>Donate <i class="fa-solid fa-arrow-right"></i></b></a>
+                        <a class="browse-button" data-featherlight="#donationModal"><b>Donate <i
+                                    class="fa-solid fa-arrow-right"></i></b></a>
                     </div>
                 </div>
 
@@ -388,7 +386,8 @@
                             </li>
 
                         </ul>
-                        <a class="browse-button" src="/"><b>Donate <i class="fa-solid fa-arrow-right"></i></b></a>
+                        <a class="browse-button" data-featherlight="#donationModal"><b>Donate <i
+                                    class="fa-solid fa-arrow-right"></i></b></a>
                     </div>
                 </div>
 
@@ -418,7 +417,8 @@
                             </li>
 
                         </ul>
-                        <a class="browse-button" src="/"><b>Donate <i class="fa-solid fa-arrow-right"></i></b></a>
+                        <a class="browse-button" data-featherlight="#donationModal"><b>Donate <i
+                                    class="fa-solid fa-arrow-right"></i></b></a>
                     </div>
                 </div>
 
@@ -453,16 +453,27 @@
                             </li>
 
                         </ul>
-                        <a class="browse-button" src="/"><b>Donate <i class="fa-solid fa-arrow-right"></i></b></a>
+                        <a class="browse-button" data-featherlight="#donationModal"><b>Donate <i
+                                    class="fa-solid fa-arrow-right"></i></b></a>
                     </div>
                 </div>
 
             </div>
+
+
+            <p class="copy-padding text-center">
+                To recieve donation gifts, please use the form linked below to provide shipping and contact information.
+                <br>
+                <a class="button cursor-pointer" href="https://forms.gle/jt3dAu94qHYptrx66" target="_blank">Receive Your Donation Gifts</a>
+            </p>
+
+
+
             <!--End of Dontation Perk Cards -->
 
 
-            <!--Thank You & Gallery-->
-            <section id="pricing" class="secondary-color text-center scrollto clearfix">
+            <!--Thank You -->
+            <section class="secondary-color text-center scrollto clearfix">
                 <div class="row clearfix">
 
                     <div class="section-heading">
@@ -470,7 +481,7 @@
                         <h2 class="section-title">For Joining Us in Supporting Gavin's Fight</h2>
                     </div>
 
-                    <p class="thank-you-copy">
+                    <p class="copy-padding">
                         Gavin's story is a testament to the strength of the human-animal bond. Together, we can make a
                         difference in his life and ensure he receives the care he needs to overcome his latest
                         challenge. Let's show Gavin that he's surrounded by a community that cares.
@@ -526,7 +537,66 @@
 
             <!--End of Gallery-->
 
+            <!-- Donation Modal -->
+            <div style="display: none;">
 
+
+                <div id="donationModal">
+                    <div id="modalCard" class="card">
+                        <a class="browse-button">
+                            <!-- <img class="card-img" src="./images/gallery-images/gavin-tier-4.png"> -->
+                        </a>
+
+                        <div class="copy-container">
+                            <h4 id="donationModalTitle"><b>Ways to Donate</b></h4>
+
+                            <ul id="donationModalList">
+
+                                <li>
+                                    <a class="icon-links" id="modalGoFundMe" target="_blank" title="Go Fund Me"
+                                        href="https://gofund.me/e223a26b">
+                                        <img class="donate-icons" src="./images/company-images/gofundme-logo-grey.png"
+                                            alt="Go Fund Me">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="icon-links" target="_blank" title="PayPal"
+                                        href="https://www.paypal.com/paypalme/frankdominguez1">
+                                        <i class="fa fa-brands fa-paypal fa-2x" style="color: #333;"></i><span
+                                            style="color: #333;">PayPal</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="icon-links" target="_blank" title="CashApp"
+                                        href="https://cash.app/$helpgavin">
+                                        <img class="donate-icons" src="./images/company-images/cashapp-logo-grey.png"
+                                            alt="CashApp">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="icon-links" target="_blank" title="Venmo"
+                                        href="https://www.venmo.com/u/helpgavin">
+                                        <img class="donate-icons" src="./images/company-images/venmo-logo-grey.png"
+                                            alt="Venmo">
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div style="display: none;">
+                <div id="gForm">
+                    <iframe
+                        src="https://docs.google.com/forms/d/e/1FAIpQLScaw_0Ks1D3nV9Jj8ehqwM3Uny0VTnXQB5Ou2vVAK5OlC06Ew/viewform?embedded=true"
+                        width="640" height="1091" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
+            </div> -->
 
         </main>
         <!--End Main Content Area-->
@@ -599,6 +669,9 @@
     <script src="js/lightbox.min.js"></script>
     <script src="js/site.js"></script>
 
+    <!-- Forms -->
+    <script async defer
+        src="https://formfacade.com/include/106105508117337845716/form/1FAIpQLScaw_0Ks1D3nV9Jj8ehqwM3Uny0VTnXQB5Ou2vVAK5OlC06Ew/classic.js?div=ff-compose"></script>
 
 </body>
 

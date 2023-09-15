@@ -1730,7 +1730,7 @@ blockquote {
     height: 30px;
 }
 
-.thank-you-copy {
+.copy-padding {
     padding: 0 1em;
 }
 
@@ -2390,7 +2390,7 @@ blockquote {
     a#scrollUp {
         display: none !important;
     }
-    
+
 }
 
 /* Mobile to Tablet Portrait
@@ -2650,3 +2650,54 @@ blockquote {
 
 
 /* END CARD STYLES */
+
+/* Donation Modal Styles */
+
+#donationModalTitle {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#donationModalList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 2em;
+}
+
+#donationModalList img {
+    width: 4em;
+}
+
+#modalCard {
+    background-color: #fff;
+}
+
+#modalCard h4 {
+    font-size: 1.5em;
+}
+
+
+#modalCard:hover {
+    transform: none;
+}
+
+#modalGoFundMe img {
+    width: 6em;
+}
+
+.cursor-pointer:hover {
+    cursor: pointer;
+}
+
+/* .ff-button-bar img {
+    display: none;
+}
+
+.ff-form .ff-submit {
+    background-color: #d2b356 !important;
+} */
+
+/* END Donation Modal Styles */
